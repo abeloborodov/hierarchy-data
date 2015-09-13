@@ -1,0 +1,15 @@
+C:\gosuslugi\Hierarchy.Test\HierarchyId.API.BreadthFirst\obj\Debug\HierarchyId.API.BreadthFirst.csprojResolveAssemblyReference.cache
+C:\gosuslugi\Hierarchy.Test\HierarchyId.API.BreadthFirst\bin\Debug\HierarchyId.API.BreadthFirst.dll.config
+C:\gosuslugi\Hierarchy.Test\HierarchyId.API.BreadthFirst\bin\Debug\HierarchyId.API.BreadthFirst.dll
+C:\gosuslugi\Hierarchy.Test\HierarchyId.API.BreadthFirst\bin\Debug\HierarchyId.API.BreadthFirst.pdb
+C:\gosuslugi\Hierarchy.Test\HierarchyId.API.BreadthFirst\bin\Debug\EntityFramework.dll
+C:\gosuslugi\Hierarchy.Test\HierarchyId.API.BreadthFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\gosuslugi\Hierarchy.Test\HierarchyId.API.BreadthFirst\bin\Debug\Hierarchy.Common.dll
+C:\gosuslugi\Hierarchy.Test\HierarchyId.API.BreadthFirst\bin\Debug\Hierarchy.Common.pdb
+C:\gosuslugi\Hierarchy.Test\HierarchyId.API.BreadthFirst\bin\Debug\EntityFramework.xml
+C:\gosuslugi\Hierarchy.Test\HierarchyId.API.BreadthFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\gosuslugi\Hierarchy.Test\HierarchyId.API.BreadthFirst\obj\Debug\HierarchyId.API.BreadthFirst.dll
+C:\gosuslugi\Hierarchy.Test\HierarchyId.API.BreadthFirst\obj\Debug\HierarchyId.API.BreadthFirst.pdb
+C:\gosuslugi\Hierarchy.Test\HierarchyId.API.BreadthFirst\obj\Debug\HierarchyId.API.BreadthFirst.Migrations.Initial.resources
+C:\gosuslugi\Hierarchy.Test\HierarchyId.API.BreadthFirst\obj\Debug\HierarchyId.API.BreadthFirst.csproj.GenerateResource.Cache
+C:\gosuslugi\Hierarchy.Test\HierarchyId.API.BreadthFirst\obj\Debug\HierarchyId.API.BreadthFirst.Migrations.CompositeIndex.resources
