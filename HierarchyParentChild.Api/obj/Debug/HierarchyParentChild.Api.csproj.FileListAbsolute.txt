@@ -1,0 +1,17 @@
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\bin\Debug\HierarchyParentChild.Api.exe.config
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\bin\Debug\HierarchyParentChild.Api.exe
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\bin\Debug\HierarchyParentChild.Api.pdb
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\bin\Debug\EntityFramework.dll
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\bin\Debug\EntityFramework.SqlServer.dll
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\bin\Debug\Hierarchy.Common.dll
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\bin\Debug\Hierarchy.Common.pdb
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\bin\Debug\EntityFramework.xml
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\bin\Debug\EntityFramework.SqlServer.xml
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\obj\Debug\HierarchyParentChild.Api.csprojResolveAssemblyReference.cache
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\obj\Debug\HierarchyParentChild.Api.Migrations.Initial.resources
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\obj\Debug\HierarchyParentChild.Api.Migrations.order.resources
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\obj\Debug\HierarchyParentChild.Api.Migrations.subservice.resources
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\obj\Debug\HierarchyParentChild.Api.Migrations._true.resources
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\obj\Debug\HierarchyParentChild.Api.csproj.GenerateResource.Cache
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\obj\Debug\HierarchyParentChild.Api.exe
+C:\gosuslugi\Hierarchy.Test\HierarchyParentChild.Api\obj\Debug\HierarchyParentChild.Api.pdb

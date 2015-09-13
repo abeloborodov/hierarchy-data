@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8CDDD463-818F-44A8-9981-91EFE22F042B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HierarchyParentChild.Api</RootNamespace>
+    <AssemblyName>HierarchyParentChild.Api</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=6847f3395fc61b47, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFrameworkWithHierarchyId.6.1.2\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=6847f3395fc61b47, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFrameworkWithHierarchyId.6.1.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ParentChildApi.cs" />
+    <Compile Include="EF\Element.cs" />
+    <Compile Include="EF\AttributeMetadata.cs" />
+    <Compile Include="EF\Incident.cs" />
+    <Compile Include="EF\IncidentData.cs" />
+    <Compile Include="EF\HierarchyParentChildContext.cs" />
+    <Compile Include="EF\Subservice.cs" />
+    <Compile Include="Migrations\201508260504551_Initial.cs" />
+    <Compile Include="Migrations\201508260504551_Initial.Designer.cs">
+      <DependentUpon>201508260504551_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508260656165_order.cs" />
+    <Compile Include="Migrations\201508260656165_order.Designer.cs">
+      <DependentUpon>201508260656165_order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508261031562_subservice.cs" />
+    <Compile Include="Migrations\201508261031562_subservice.Designer.cs">
+      <DependentUpon>201508261031562_subservice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508261032329_true.cs" />
+    <Compile Include="Migrations\201508261032329_true.Designer.cs">
+      <DependentUpon>201508261032329_true.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="EF\SimpleAttribute.cs" />
+    <Compile Include="EF\SubserviceVersion.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201508260504551_Initial.resx">
+      <DependentUpon>201508260504551_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508260656165_order.resx">
+      <DependentUpon>201508260656165_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508261031562_subservice.resx">
+      <DependentUpon>201508261031562_subservice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508261032329_true.resx">
+      <DependentUpon>201508261032329_true.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hierarchy.Common\Hierarchy.Common.csproj">
+      <Project>{0C668BC9-B11A-4281-89B6-15FF2BA45D32}</Project>
+      <Name>Hierarchy.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
