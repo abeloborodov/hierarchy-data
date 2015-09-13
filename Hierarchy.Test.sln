@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hierarchy.Test", "Hierarchy.Test\Hierarchy.Test.csproj", "{A44502E1-58E2-48F5-956C-61B3A5AFC24C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hierarchy.Common", "Hierarchy.Common\Hierarchy.Common.csproj", "{0C668BC9-B11A-4281-89B6-15FF2BA45D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HierarchyId.API", "HierarchyId.API\HierarchyId.API.csproj", "{9F28DE4B-F48A-4EA5-B85C-9ABE5021CD57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HierarchyParentChild.Api", "HierarchyParentChild.Api\HierarchyParentChild.Api.csproj", "{8CDDD463-818F-44A8-9981-91EFE22F042B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HierarchyId.API.BreadthFirst", "HierarchyId.API.BreadthFirst\HierarchyId.API.BreadthFirst.csproj", "{112BF8CD-4F78-47E6-888C-2BE041F5D81A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs_server.datateh.ru:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Hierarchy.Common\\Hierarchy.Common.csproj
+		SccProjectName1 = Hierarchy.Common
+		SccLocalPath1 = Hierarchy.Common
+		SccProjectUniqueName2 = Hierarchy.Test\\Hierarchy.Test.csproj
+		SccProjectName2 = Hierarchy.Test
+		SccLocalPath2 = Hierarchy.Test
+		SccProjectUniqueName3 = HierarchyParentChild.Api\\HierarchyParentChild.Api.csproj
+		SccProjectName3 = HierarchyParentChild.Api
+		SccLocalPath3 = HierarchyParentChild.Api
+		SccProjectUniqueName4 = HierarchyId.API\\HierarchyId.API.csproj
+		SccProjectName4 = HierarchyId.API
+		SccLocalPath4 = HierarchyId.API
+		SccProjectUniqueName5 = HierarchyId.API.BreadthFirst\\HierarchyId.API.BreadthFirst.csproj
+		SccProjectName5 = HierarchyId.API.BreadthFirst
+		SccLocalPath5 = HierarchyId.API.BreadthFirst
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A44502E1-58E2-48F5-956C-61B3A5AFC24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44502E1-58E2-48F5-956C-61B3A5AFC24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44502E1-58E2-48F5-956C-61B3A5AFC24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44502E1-58E2-48F5-956C-61B3A5AFC24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C668BC9-B11A-4281-89B6-15FF2BA45D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C668BC9-B11A-4281-89B6-15FF2BA45D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C668BC9-B11A-4281-89B6-15FF2BA45D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C668BC9-B11A-4281-89B6-15FF2BA45D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F28DE4B-F48A-4EA5-B85C-9ABE5021CD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F28DE4B-F48A-4EA5-B85C-9ABE5021CD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F28DE4B-F48A-4EA5-B85C-9ABE5021CD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F28DE4B-F48A-4EA5-B85C-9ABE5021CD57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CDDD463-818F-44A8-9981-91EFE22F042B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CDDD463-818F-44A8-9981-91EFE22F042B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CDDD463-818F-44A8-9981-91EFE22F042B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CDDD463-818F-44A8-9981-91EFE22F042B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{112BF8CD-4F78-47E6-888C-2BE041F5D81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{112BF8CD-4F78-47E6-888C-2BE041F5D81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{112BF8CD-4F78-47E6-888C-2BE041F5D81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{112BF8CD-4F78-47E6-888C-2BE041F5D81A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
