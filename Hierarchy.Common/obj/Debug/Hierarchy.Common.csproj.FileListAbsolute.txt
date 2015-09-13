@@ -1,0 +1,5 @@
+C:\gosuslugi\Hierarchy.Test\Hierarchy.Common\bin\Debug\Hierarchy.Common.dll
+C:\gosuslugi\Hierarchy.Test\Hierarchy.Common\bin\Debug\Hierarchy.Common.pdb
+C:\gosuslugi\Hierarchy.Test\Hierarchy.Common\obj\Debug\Hierarchy.Common.csprojResolveAssemblyReference.cache
+C:\gosuslugi\Hierarchy.Test\Hierarchy.Common\obj\Debug\Hierarchy.Common.dll
+C:\gosuslugi\Hierarchy.Test\Hierarchy.Common\obj\Debug\Hierarchy.Common.pdb
