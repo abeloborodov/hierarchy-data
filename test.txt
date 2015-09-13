@@ -1,2 +1,2 @@
 hello
-all the world!
+world
